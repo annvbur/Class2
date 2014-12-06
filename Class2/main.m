@@ -2,6 +2,7 @@
 #import "SmartRec.h"
 #import <math.h>
 #import "SmartCircle.h"
+#import "SmartTriangle.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -33,6 +34,9 @@ int main(int argc, const char * argv[]) {
         
         BOOL isRectInCircle = [circle isContainRect:rect];
         NSLog(@"Rect is %@ circle", isPointInCircle? @"In" : @"Out");
+        
+        SmartTriangle *triangle = [[SmartTriangle alloc]initAPoint: CGPointMake(5, 5) andBPoint: CGPointMake(10, 10) andCPoint: CGPointMake(12, 1)];
+        NSLog(@"%@,\n square is  %g, perimeter is %g, centeroidx %g, centeroid y %g ",[triangle description],[triangle square],[triangle perimeter], [triangle centeroid]);
         
     }
     return 0;

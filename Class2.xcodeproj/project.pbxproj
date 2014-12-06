@@ -10,6 +10,7 @@
 		0425FE591A21E59900BE36D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0425FE581A21E59900BE36D8 /* main.m */; };
 		0425FE611A21EE0700BE36D8 /* SmartRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0425FE601A21EE0700BE36D8 /* SmartRec.m */; };
 		0425FE641A2B189D00BE36D8 /* SmartCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0425FE631A2B189D00BE36D8 /* SmartCircle.m */; };
+		0425FE671A2DD8CE00BE36D8 /* SmartTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0425FE661A2DD8CE00BE36D8 /* SmartTriangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0425FE601A21EE0700BE36D8 /* SmartRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartRec.m; sourceTree = "<group>"; };
 		0425FE621A2B189D00BE36D8 /* SmartCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCircle.h; sourceTree = "<group>"; };
 		0425FE631A2B189D00BE36D8 /* SmartCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartCircle.m; sourceTree = "<group>"; };
+		0425FE651A2DD8CE00BE36D8 /* SmartTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTriangle.h; sourceTree = "<group>"; };
+		0425FE661A2DD8CE00BE36D8 /* SmartTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTriangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				0425FE581A21E59900BE36D8 /* main.m */,
 				0425FE5F1A21ED8800BE36D8 /* SmartRec.h */,
 				0425FE621A2B189D00BE36D8 /* SmartCircle.h */,
+				0425FE651A2DD8CE00BE36D8 /* SmartTriangle.h */,
+				0425FE661A2DD8CE00BE36D8 /* SmartTriangle.m */,
 				0425FE631A2B189D00BE36D8 /* SmartCircle.m */,
 				0425FE601A21EE0700BE36D8 /* SmartRec.m */,
 			);
@@ -131,6 +136,7 @@
 				0425FE611A21EE0700BE36D8 /* SmartRec.m in Sources */,
 				0425FE591A21E59900BE36D8 /* main.m in Sources */,
 				0425FE641A2B189D00BE36D8 /* SmartCircle.m in Sources */,
+				0425FE671A2DD8CE00BE36D8 /* SmartTriangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
